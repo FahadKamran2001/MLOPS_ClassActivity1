@@ -1,6 +1,12 @@
-def fibNum(index):
-    i1 = 0;
-    i2 = 1;
+"""
+    function to find nth fibonacci number
+    """
+def fib_num(index):
+    """
+    function to find nth fibonacci number
+    """
+    i1 = 0
+    i2 = 1
     if index == 1:
         return i1
     elif index == 2:
