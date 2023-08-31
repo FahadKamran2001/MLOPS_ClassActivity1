@@ -1,6 +1,6 @@
 from i200983 import fibNum
 
-def test_fibNum():
+def test_fib_num():
     assert 0 == fibNum(1)
     assert 1 == fibNum(2)
     assert 1 == fibNum(3)
