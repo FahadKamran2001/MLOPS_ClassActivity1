@@ -6,7 +6,8 @@ def test_fib_num():
     """
     Test function for the Fibonacci number calculation.
 
-    This function asserts the expected values for various inputs of the Fibonacci number calculation.
+    This function asserts the expected values for various inputs of the 
+    Fibonacci number calculation.
     """
     assert 0 == fib_num(1)
     assert 1 == fib_num(2)
