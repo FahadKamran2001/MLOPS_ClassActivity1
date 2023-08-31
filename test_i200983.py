@@ -1,6 +1,13 @@
+"""
+This module provides an implementation of the Fibonacci number calculation.
+"""
 from i200983 import fibNum
-
 def test_fib_num():
+    """
+    Test function for the Fibonacci number calculation.
+
+    This function asserts the expected values for various inputs of the Fibonacci number calculation.
+    """
     assert 0 == fibNum(1)
     assert 1 == fibNum(2)
     assert 1 == fibNum(3)
