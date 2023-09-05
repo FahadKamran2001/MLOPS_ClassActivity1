@@ -9,13 +9,12 @@ def fib_num(index):
     i_two = 1
     if index == 1:
         return i_one
-    elif index == 2:
+    if index == 2:
         return i_two
-    else:
-        count = 2
-        while count != index:
-            temp = i_two
-            i_two = i_two + i_one
-            i_one = temp
-        return i_two
+    count = 2
+    while count != index:
+        temp = i_two
+        i_two = i_two + i_one
+        i_one = temp
+    return i_two
     
